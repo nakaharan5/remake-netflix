@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;;
+}
+
+body{
+    background-image: url(https://miro.medium.com/v2/resize:fit:1400/1*5lyavS59mazOFnb55Z6znQ.png);
+    background-size: cover;
+}
+
+.container-nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(0, 0, 0, 0.9);
+    background: linear-gradient(to bottom, #000000, #00000090);
+}
+
+.container-nav div img{
+    width: 20rem;
+}
+
+.container-nav div select, button{
+    width: 10rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    color: white;
+    font-size: large;
+    font-weight: 700;
+}
+
+select{
+  background-color: rgb(0, 0, 0, 0.5);  
+  border: none;
+  padding: 15px;
+}
+
+button{
+    background-color: red;
+    border: none;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin: 0 auto;
+    padding-top: 10%;
+    
+}
+
+main{
+    width: 100vw;
+    height: 89.2vh;
+    background-color: #00000090;
+}
+
+.container h1{
+    font-size: 6.25rem;
+}
+
+.container p{
+    font-size: 3rem;
+}
+
+.container .inputs input{
+    width: 500px;
+    height: 100px;
+    background-color: rgb(0, 0, 0, 0.5);  
+    border-radius: 0.5rem;
+    border: 1px solid white;
+    padding-left: 2rem;
+}
+
+.inputs{
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+    gap: 30px;
+}
+
+#btn-vml{
+    width: 250px;
+    height: 100px;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-size: 30px;
+  }
